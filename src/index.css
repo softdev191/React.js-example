@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+  display: block;
+  touch-action: manipulation;
+  overflow: auto;
+  min-height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+.App {
+  min-height: 100%;
+  height: auto !important;
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('assets/fonts/NunitoSans-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('assets/fonts/NunitoSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('assets/fonts/NunitoSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('assets/fonts/NunitoSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('assets/fonts/NunitoSans-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Chathura';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('assets/fonts/Chathura-ExtraBold.ttf');
+}
